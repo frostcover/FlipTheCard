@@ -1,0 +1,84 @@
+* {
+     -moz-user-select: none;
+     -webkit-user-select: none;
+     -ms-user-select: none;
+     -moz-user-select: none;
+ }
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#cards {
+    width: 100vw;
+    height: 60vh;
+    border-collapse: collapse;
+    padding: 0;
+    table-layout: fixed;
+}
+
+td{
+    box-shadow: 0 0 1px #333 inset;
+    text-align: center;
+    overflow: hidden;
+    font-size: 30pt;
+    color: #FFF;
+    background: #3498db;
+    transition: all 500ms ease-in-out, color 250ms ease-in-out, background 250ms ease-in-out;
+}
+
+.down {
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+    color: transparent;
+    background: #7D7;
+}
+
+.disabled {
+    background: #AEA;
+}
+
+.header
+{
+    margin: auto;
+    height: 25px;
+    max-width: 100%;
+    background: url("file:///D:/Labs/Game/1.jpg");
+    background-size:cover;
+    background-position: 0px 0px;
+    padding-top: 55px;
+    padding-bottom: 45px;
+    box-shadow: inset 1px -5px 8px 0px rgba(42, 52, 58,0.68);
+}
+
+.header-row
+{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    margin-top: -36px;
+}
+
+.submenu
+{
+    float: right;
+    margin-top: -43px;
+    color: #fff;
+    display: inline-flex;
+    padding: 6px 10px 10px 10px;
+    list-style: none;
+    background-color: rgba(73, 101, 115, 0.4);
+    font-size: 14pt;
+    margin-right: 21px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 666;
+}
+
+.ul-nav
+{
+    color: #fff;
+    font-size: 13pt;
+    text-decoration: none
+}
